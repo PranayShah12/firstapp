@@ -1,0 +1,26 @@
+.carousel-item h2 {
+  position: absolute;
+  top: 340px;
+  right: 240px;
+  color: whitesmoke;
+}
+
+.carousel-item h3 {
+
+  position: absolute;
+  top: 256px;
+  left: 242px;
+  color: black;
+  font-weight: 700;
+
+}
+
+.carousel-control-prev {
+  left: 0;
+  top: 210px;
+}
+
+.carousel-control-next {
+  right: 0;
+  top: 210px;
+}

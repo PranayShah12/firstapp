@@ -1,0 +1,28 @@
+.footer {
+    background-color: black;
+    height: 500px;
+}
+
+.head1 h1 {
+    color: #b17812;
+    font-size: 30px;
+}
+
+.footer-cont {
+    padding-left: 80px;
+}
+
+.head1 p {
+    color: whitesmoke;
+    padding-top: 20px;
+}
+
+.copyrt {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.head1 span {
+    color: #4285F4;
+}

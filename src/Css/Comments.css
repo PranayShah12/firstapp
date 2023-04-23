@@ -1,0 +1,60 @@
+.name h1 {
+  font-size: 30px;
+}
+
+span {
+  margin-right: 77px;
+  padding-top: 5px;
+  color: #fbbc04;
+  display: flex;
+  font-size: 13px;
+
+}
+
+.star {
+  margin-left: 0;
+}
+
+.para {
+  height: 300px;
+  width: 270px;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  font-size: 18px;
+  padding: 20px;
+  margin-bottom: 0;
+  box-shadow: 5px 12px 5px 2px #c5c5c5;
+}
+
+.bx-wrapper {
+  border: none !important;
+  box-shadow: none;
+  /* height: 300px; */
+}
+
+.bx-slider1.bx-wrapper .bx-viewport {
+  height: 300px !important;
+}
+
+.bx-slider1 .bx-prev {
+  left: -40px !important;
+}
+
+.bx-slider1.bx-wrapper .bx-next {
+  right: -40px;
+}
+
+.comm-date {
+  font-size: 15px;
+}
+
+.comm-head h5 {
+  font-weight: 700;
+}
+
+.comments h4 {
+  font-size: 20px;
+  /* color: gray */
+  font-size: 15px;
+}

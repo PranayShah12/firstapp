@@ -1,0 +1,82 @@
+.info h1 {
+  font-size: 50px;
+}
+
+.imginfo {
+  padding-top: 20px;
+  letter-spacing: 2px;
+  padding-right: 150px;
+  padding-bottom: 60px;
+}
+
+button {
+  height: 50px;
+  width: 120px;
+  background-color: #b17812;
+  border: #b17812;
+  color: white;
+  font-size: 18px;
+}
+
+.imgstart {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  box-shadow: -1px 2px 20px 7px #c5c5c5;
+}
+
+.head {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #b17812;
+}
+
+.row {
+  --bs-gutter-x: 0rem;
+}
+
+.gallaryimg {
+  position: relative;
+}
+
+.gallaryimg img {
+  height: 280px;
+  width: 400px;
+  border-radius: 0.25rem;
+  padding: 0.1rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.imgHeading {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  overflow: hidden;
+  text-align: center;
+  transition: 1s all ease;
+  color: whitesmoke;
+}
+
+.gallaryimg:hover .imgHeading {
+  background-color: rgba(41, 40, 40, 0.368);
+  height: 20%;
+  line-height: 60px;
+  bottom: 0;
+}
+
+.gallary {
+  background-image: url(../images/bgimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.proinfo {
+  margin-top: 50px;
+}

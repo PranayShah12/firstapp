@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: orange;
+    margin-left: 20px;
+}
+
+.navbar {
+    /* padding: 10px; */
+    background-color: rgb(32, 26, 26);
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.navbar li {
+    color: white;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+li {
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.navbar a:hover {
+    color: orange !important;
+}
+
+a {
+    text-decoration: none;
+    color: white !important;
+}
+
+.Menu span {
+    color: orange !important;
+    margin-right: 0px;
+    padding-top: 0px;
+}
+
+span {
+    margin-right: 0px;
+    padding-top: 0px;
+}
+
+.dropdown-menu li {
+    margin-left: 20px;
+}
+
+.dropdown-menu ul {
+    margin-right: 0px;
+}
+
+.dropdown-item {
+    background-color: white !important;
+    color: black !important;
+}
+
+.form-control {
+    padding-right: 80px;
+}
