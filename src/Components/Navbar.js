@@ -45,38 +45,6 @@ export default function Navbar() {
             </div>
         </nav>
 
-        {/* <div className="Navbar ">
-            <div className="row ">
-                <div className="logo col-lg-4 col-md-4 col-sm-12">
-                    <h1> Jewellers</h1>
-                </div>
-                <div className="Menu col-lg-8 col-md-8 col-sm-12">
-                    <ul>
-                        <li>
-                            <NavLink to="/">Home</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="/about">About</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="/service">Service</NavLink>
-                        </li>
 
-                        <li className="nav-item dropdown">
-                            <NavLink className="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Collection
-                            </NavLink>
-                            <ul className="dropdown-menu">
-                                <li><NavLink to="/Diamond" className="dropdown-item" href="">Diamond</NavLink></li>
-                                <li><NavLink to="/Gold" className="dropdown-item" href="">Gold</NavLink></li>
-                                <li><NavLink to="/Platinum" className="dropdown-item" href="">Platinum</NavLink></li>
-                            </ul></li>
-                        <li>
-                            <NavLink to="/Contact ">Contact </NavLink>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div > */}
     </>
 }

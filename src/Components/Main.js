@@ -36,7 +36,7 @@ export default function Main() {
       </div>
       <section className="gallary conatainer-fluid  my-5">
         <div>
-          <h1 className="head pt-5">Our Metals</h1>
+          <h1 className="head pt-3">Our Metals</h1>
         </div>
         <div className="container">
           <div className="proinfo row">

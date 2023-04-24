@@ -7,7 +7,7 @@ export default function Comments() {
         <div className="review-main row">
           <div className="name pt-5 col-lg-4 col-md-4 col-sm-12">
             <h1>JP Jewellers</h1>
-            <span>
+            <span className="star pb-4">
               <i className="fa-solid fa-star"></i>
               <i className="fa-solid fa-star"></i>
               <i className="fa-solid fa-star"></i>

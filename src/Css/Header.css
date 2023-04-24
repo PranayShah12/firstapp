@@ -15,12 +15,9 @@
 
 }
 
-.carousel-control-prev {
-  left: 0;
-  top: 210px;
-}
+.visually-hidden span {}
 
-.carousel-control-next {
-  right: 0;
-  top: 210px;
+.carousel-control-next-icon {
+  height: 2rem;
+  width: 2rem;
 }

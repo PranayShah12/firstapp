@@ -74,9 +74,11 @@ button {
   background-image: url(../images/bgimg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: auto;
+  padding-bottom: 20px;
 }
 
 .proinfo {
-  margin-top: 50px;
+  margin-top: 20px;
+  height: auto;
 }
