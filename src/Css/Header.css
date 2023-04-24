@@ -15,9 +15,24 @@
 
 }
 
-.visually-hidden span {}
+@media (max-width:576px) {
+  .carousel-item h2 {
+    position: absolute;
+    top: 120px;
+    right: 25px;
+    color: whitesmoke;
+    font-size: 13px;
+  }
+}
 
-.carousel-control-next-icon {
-  height: 2rem;
-  width: 2rem;
+@media (max-width:576px) {
+  .carousel-item h3 {
+
+    position: absolute;
+    top: 65px;
+    left: 25px;
+    color: black;
+    font-weight: 700;
+    font-size: 13px;
+  }
 }

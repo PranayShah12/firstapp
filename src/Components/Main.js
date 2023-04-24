@@ -19,7 +19,7 @@ export default function Main() {
               width="500px"
             ></img>
           </div>
-          <div className="info col-lg-6 col-md-6 col-sm-12">
+          <div className="container info col-lg-6 col-md-6 col-sm-12">
             <h1>
               Perfect Jewellery <br />
               For You

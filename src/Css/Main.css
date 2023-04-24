@@ -1,12 +1,12 @@
 .info h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .imginfo {
   padding-top: 20px;
   letter-spacing: 2px;
-  padding-right: 150px;
-  padding-bottom: 60px;
+  padding-right: 50px;
+  padding-bottom: 50px;
 }
 
 button {

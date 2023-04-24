@@ -20,7 +20,7 @@ export default function Comments() {
               <div>
                 <div className="comments">
                   <div className="row">
-                    <div className="comment1 col-lg-4 col-md-12 col-sm-12">
+                    <div className="comment1 col-lg-4 col-md-4 col-sm-12">
                       <p className="para">
                         <div className="comm-head">
                           <h5>Pranay Shah</h5>
@@ -40,7 +40,7 @@ export default function Comments() {
                         </div>
                       </p>
                     </div>
-                    <div className="comment2 col-lg-4 col-md-12 col-sm-12">
+                    <div className="comment2 col-lg-4 col-md-4 col-sm-12">
                       <p className="para">
                         <div className="comm-head">
                           <h5>Nikunj Patel</h5>
@@ -60,7 +60,7 @@ export default function Comments() {
                         </div>
                       </p>
                     </div>
-                    <div className="comment3 col-lg-4 col-md-12 col-sm-12">
+                    <div className="comment3 col-lg-4 col-md-4 col-sm-12">
                       <p className="para">
                         <div className="comm-head">
                           <h5>Anchal Tiwari</h5>
@@ -86,7 +86,7 @@ export default function Comments() {
               <div>
                 <div className="comments">
                   <div className="row">
-                    <div className="comment4 col-lg-4 col-md-12 col-sm-12">
+                    <div className="comment4 col-lg-4 col-md-4 col-sm-12">
                       <p className="para">
                         <div className="comm-head">
                           <h5>Anchal Tiwari</h5>
@@ -106,7 +106,7 @@ export default function Comments() {
                         </div>
                       </p>
                     </div>
-                    <div className="comment5 col-lg-4 col-md-12 col-sm-12">
+                    <div className="comment5 col-lg-4 col-md-4 col-sm-12">
                       <p className="para">
                         <div className="comm-head">
                           <h5>Jagdish Padhiyar</h5>
@@ -126,7 +126,7 @@ export default function Comments() {
                         </div>
                       </p>
                     </div>
-                    <div className="comment6 col-lg-4 col-md-12 col-sm-12">
+                    <div className="comment6 col-lg-4 col-md-4 col-sm-12">
                       <p className="para">
                         <div className="comm-head">
                           <h5>Dilip Patel</h5>
@@ -152,7 +152,7 @@ export default function Comments() {
               <div>
                 <div className="comments">
                   <div className="row">
-                    <div className="comment7 col-lg-4 col-md-12 col-sm-12">
+                    <div className="comment7 col-lg-4 col-md-4 col-sm-12">
                       <p className="para">
                         <div className="comm-head">
                           <h5>Jay Desai</h5>
@@ -172,7 +172,7 @@ export default function Comments() {
                         </div>
                       </p>
                     </div>
-                    <div className="comment8 col-lg-4 col-md-12 col-sm-12">
+                    <div className="comment8 col-lg-4 col-md-4 col-sm-12">
                       <p className="para">
                         <div className="comm-head">
                           <h5>Rohan Shah</h5>
@@ -192,7 +192,7 @@ export default function Comments() {
                         </div>
                       </p>
                     </div>
-                    <div className="comment9 col-lg-4 col-md-12 col-sm-12">
+                    <div className="comment9 col-lg-4 col-md-4 col-sm-12">
                       <p className="para">
                         <div className="comm-head">
                           <h5>Anchal Tiwari</h5>

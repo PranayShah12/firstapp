@@ -13,8 +13,8 @@ export default function Diamond() {
                     let { id, name, desp, img } = item;
                     return (
                         <>
-                            <div className="col-3 ">
-                                <div className="card" style={{ width: '18rem' }} key={id}>
+                            <div className="container col-md-6 col-sm-12 col-lg-3">
+                                <div className="card" key={id}>
                                     <img src={img} className="card-img-top" alt="..." height="200px" width="200px" />
                                     <div className="card-body">
                                         <h5 className="card-title">{name}</h5>
