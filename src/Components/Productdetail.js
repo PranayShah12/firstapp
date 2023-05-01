@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { ProductList } from "./ProductList";
 import { IoArrowBackSharp } from "react-icons/io5";
+import { jquery } from "react";
 // import "../Css/Zoom.css/Example.css"
 import "../Css/Zoom.css/Product.css"
 import "../Css/Zoom.css/Pygment.css"

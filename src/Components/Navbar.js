@@ -1,8 +1,10 @@
-import { NavLink } from "react-router-dom";
-import React from "react";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
+import React, { useContext, useEffect } from "react";
 import "../Css/Navbar.css"
+import { WrapperContext } from "./App";
 
 export default function Navbar() {
+    const { searchFormValue, setSearchFormValue } = useContext(WrapperContext)
     return <>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid navbar">
@@ -32,15 +34,16 @@ export default function Navbar() {
                             <NavLink to="/Contact">Contact</NavLink>
                         </li>
                     </ul>
-                    <form className="d-flex" role="search">
-                        <input className="form-control me-2"
-                            // type="search"
-                            placeholder="Search"
-                        // value={searchvalue}
-                        // onChange={(e) => setsearchvalue(e.target.value)} />
-                        />
-                        <button className="btn btn-outline-success " type="submit">Search</button>
-                    </form>
+
+                    <input className="form-control me-2 w-25"
+                        placeholder="Search"
+                        value={searchFormValue}
+                        onChange={(e) => setSearchFormValue(e.target.value)} />
+
+                    {/* <button className="btn btn-outline-success "
+                            type="submit"
+                        >Search</button> */}
+
                 </div>
             </div>
         </nav>
