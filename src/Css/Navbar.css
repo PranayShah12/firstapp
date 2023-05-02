@@ -12,8 +12,9 @@
 }
 
 .navbar {
+    padding: 0px;
     /* padding: 10px; */
-    background-color: rgb(32, 26, 26);
+    /* background-color: rgb(32, 26, 26); */
 }
 
 ul {
@@ -24,6 +25,10 @@ ul {
 
 .navbar li {
     color: white;
+}
+
+.navbar-toggler button {
+    width: 80px;
 }
 
 .nav-link {
@@ -70,6 +75,10 @@ span {
     background-color: white !important;
     color: black !important;
 }
+
+/* .nav-item li {
+    padding-bottom: 20px;
+} */
 
 .form-control {
     padding-right: 80px;

@@ -7,8 +7,8 @@ import { WrapperContext } from "./App";
 export default function Diamond() {
 
     const { list, setList } = useContext(WrapperContext);
-    const { filterList, setFilterList } = useContext(WrapperContext);
-    const { searchFormValue, setSearchFormValue } = useContext(WrapperContext);
+    const { filterList } = useContext(WrapperContext);
+    const { searchFormValue } = useContext(WrapperContext);
 
     useEffect(() => {
         const searchProducts = filterList.filter((item) => {

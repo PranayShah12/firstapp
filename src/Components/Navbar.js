@@ -1,15 +1,21 @@
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
-import React, { useContext, useEffect } from "react";
+import { NavLink } from "react-router-dom";
+import React, { useContext } from "react";
 import "../Css/Navbar.css"
 import { WrapperContext } from "./App";
+import Diamond from "./Diamond";
+
+
 
 export default function Navbar() {
     const { searchFormValue, setSearchFormValue } = useContext(WrapperContext)
+    const { list, setList } = useContext(WrapperContext);
+    const { filterList } = useContext(WrapperContext);
+
     return <>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
-            <div className="container-fluid navbar">
+        <nav className="navbar bg-dark navbar-expand-lg bg-body-tertiary">
+            <div className="container-fluid navbar bg-dark p-2">
                 <h1>Jewellers</h1>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler bg-white " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -21,7 +27,7 @@ export default function Navbar() {
                             <NavLink to="/about">About</NavLink>
                         </li>
                         <li className="nav-item dropdown ">
-                            <NavLink className="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <NavLink className="nav-link dropdown-toggle p-0" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Collection
                             </NavLink>
                             <ul className="dropdown-menu">
@@ -39,11 +45,6 @@ export default function Navbar() {
                         placeholder="Search"
                         value={searchFormValue}
                         onChange={(e) => setSearchFormValue(e.target.value)} />
-
-                    {/* <button className="btn btn-outline-success "
-                            type="submit"
-                        >Search</button> */}
-
                 </div>
             </div>
         </nav>
