@@ -7,6 +7,10 @@ import { jquery } from "react";
 import "../Css/Zoom.css/Product.css"
 import "../Css/Zoom.css/Pygment.css"
 import diomondimg from '../images/diamondimg.webp'
+import diamondimg1 from '../images/diamondimg1.webp'
+import diamondimg2 from '../images/diamondimg2.webp'
+import diamondimg3 from '../images/diamondimg3.webp'
+import diamondimg4 from '../images/diamondimg4.webp'
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch"
 
 
@@ -49,28 +53,47 @@ export default function Productdetail() {
                     </div>
                 </div>
                 <div className="row pt-3">
-                    <div id="carouselExample" className="carousel1slide">
-                        <div className="carousel-inner">
-                            <div className="carousel-item active">
-                                <img src={diomondimg} className="d-block w-50" height="100px" width="50px" alt="..." />
-                            </div>
-                            <div className="carousel-item">
-                                <img src={diomondimg} className="d-block w-50" height="100px" width="50px" alt="..." />
-                            </div>
-                            <div className="carousel-item">
-                                <img src={diomondimg} className="d-block w-50" height="100px" width="50px" alt="..." />
+                    <div class="bxslider">
+                        <div>
+                            <div className="imgSlider">
+                                <div className="row">
+                                    <div className="col-md-3">
+                                        <img src={diamondimg1} height="150px" width="150px" />
+                                    </div>
+                                    <div className="col-md-3">
+                                        <img src={diamondimg2} height="150px" width="150px" />
+                                    </div>
+                                    <div className="col-md-3">
+                                        <img src={diamondimg3} height="150px" width="150px" />
+                                    </div>
+                                    <div className="col-md-3">
+                                        <img src={diamondimg4} height="150px" width="150px" />
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true" />
-                            <span className="visually-hidden">Previous</span>
-                        </button>
-                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true" />
-                            <span className="visually-hidden">Next</span>
-                        </button>
-                    </div>
+                        <div>
+                            <div className="imgSlider">
+                                <div className="row">
+                                    <div className="col-md-3">
+                                        <img src={diamondimg1} height="150px" width="150px" />
+                                    </div>
+                                    <div className="col-md-3">
+                                        <img src={diamondimg2} height="150px" width="150px" />
+                                    </div>
+                                    <div className="col-md-3">
+                                        <img src={diamondimg3} height="150px" width="150px" />
+                                    </div>
+                                    <div className="col-md-3">
+                                        <img src={diamondimg4} height="150px" width="150px" />
+                                    </div>
+                                </div>
 
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>

@@ -14,13 +14,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     rel="stylesheet" />
   <!-- BX-Slider CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="/js/jquery.bxslider.min.js"></script>
+  <link href="/lib/jquery.bxslider.css" rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="/node_modules/bxslider/dist/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+  <!-- <script src="/node_modules/bxslider/dist/jquery.bxslider.min.js"></script> -->
   <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.css"
     rel="stylesheet" />
 
-  <script src="/src/Components/Zoom.js/Easyzoom.js"></script>
-  <script src="/src/Components/Zoom.js/googleanalytic.js"></script>
   <script>
     $(function () {
       $('.bxslider1').bxSlider({
@@ -29,6 +33,15 @@
         // slideWidt
         controls: false,
         auto: true,
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $('.bxslider').bxSlider({
+        mode: 'fade',
+        captions: true,
+        slideWidth: 400
       });
     });
   </script>
