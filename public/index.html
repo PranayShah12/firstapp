@@ -25,16 +25,26 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.css"
     rel="stylesheet" />
 
-  <script>
-    $(function () {
-      $('.bxslider1').bxSlider({
-        mode: 'horizontal',
-        captions: true,
-        // slideWidt
-        controls: false,
-        auto: true,
+  <!-- Swiper CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+
+    const swiper = new Swiper(...)
+
+      < script >
+      $(function () {
+        $('.bxslider1').bxSlider({
+          mode: 'horizontal',
+          captions: true,
+          // slideWidt
+          controls: false,
+          auto: true,
+        });
       });
-    });
   </script>
   <script>
     $(document).ready(function () {

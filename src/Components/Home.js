@@ -5,11 +5,58 @@ import img2 from "../images/headimg2.jpg";
 import img3 from "../images/headimg3.jpg";
 import Comments from "./Comments";
 import Main from "./Main";
+// import { Button } from "bootstrap";
+import Carousel from 'react-bootstrap/Carousel';
 export default function Home() {
   return (
 
     <>
-      <div id="carouselExample" className="carousel slide">
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={img1}
+            alt="First slide"
+            height="500px"
+            width="200px"
+          />
+          <Carousel.Caption>
+            <h3>Turn Your Dream</h3>
+            <h2>Jewellery Collection</h2>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={img2}
+            alt="Second slide"
+            height="500px"
+            width="200px"
+          />
+
+          <Carousel.Caption>
+            <h3>New Classic Items</h3>
+            <h2>Beautiful Jewellery</h2>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={img3}
+            alt="Third slide"
+            height="500px"
+            width="200px"
+          />
+
+          <Carousel.Caption>
+            <h3>Shine With Luxury</h3>
+            <h2>
+              Unique Jewellery
+            </h2>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+      {/* <div id="carouselExample" className="carousel slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src={img1} className="d-block w-100" alt="..." />
@@ -35,46 +82,9 @@ export default function Home() {
           <span className="carousel-control-next-icon" aria-hidden="true" />
           <span className="visually-hidden">Next</span>
         </button>
-      </div>
+      </div> */}
       <Main />
       <Comments />
-      {/* <div className="slider">
-        <div className="bxslider">
-          <div>
-            <img
-              src={img1}
-              title=""
-              alt=""
-              width="100%"
-              height="700px"
-            />
-            <h2>Jewellery Collection</h2>
-            <h3>Turn Your Dream</h3>
-          </div>
-          <div>
-            <img
-              src={img2}
-              alt=""
-              title=""
-              width="100%"
-              height="700px"
-            />
-            <h2>Beautiful Jewellery</h2>
-            <h3>New Classic Items</h3>
-          </div>
-          <div>
-            <img
-              src={img3}
-              alt=""
-              title=""
-              width="100%"
-              height="700px"
-            />
-            <h2>Unique Jewellery</h2>
-            <h3>Shine With Luxury</h3>
-          </div>
-        </div>
-      </div> */}
 
     </>
   );

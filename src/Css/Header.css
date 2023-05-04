@@ -1,15 +1,17 @@
 .carousel-item h2 {
   position: absolute;
-  top: 340px;
-  right: 240px;
+  /* top: 100px; */
+  bottom: 120px;
+  right: 180px;
   color: whitesmoke;
 }
 
 .carousel-item h3 {
 
   position: absolute;
-  top: 256px;
-  left: 242px;
+  /* top: -15px; */
+  bottom: 180px;
+  left: 160px;
   color: black;
   font-weight: 700;
 
