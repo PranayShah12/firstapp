@@ -93,11 +93,14 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    /* position: relative; */
+    /* border: 1px solid black */
 }
 
 .swiper-button-prev,
 .swiper-button-next {
     color: black !important;
+    display: none !important;
 }
 
 .back-black {
@@ -105,10 +108,40 @@ body {
 }
 
 .swiper-wrapper {
-    margin-top: 30px !important;
-    background-color: #000;
+    margin-top: 20px !important;
+    /* background-color: #000; */
 }
 
 .swiper-horizontal {
-    margin: -19px !important;
+    margin: -25px !important;
+}
+
+.swiper-wrapper img {
+    /* border: 1px solid black; */
+}
+
+.mySwiper {
+    padding-bottom: 50px;
+}
+
+.zoomButton {
+    position: absolute;
+    top: 300px;
+    right: 0;
+}
+
+.slideImage {
+    position: relative;
+    z-index: -1;
+}
+
+.buyBtn {
+    padding-top: 50px;
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.buyBtn button {
+    width: 170px;
 }

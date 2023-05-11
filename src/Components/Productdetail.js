@@ -53,13 +53,48 @@ export default function Productdetail() {
                             className="mySwiper2"
                         >
                             <SwiperSlide>
-                                <img src={diamondimg4} alt="" />
+                                <TransformWrapper defaultScale={1} defaultPositionX={100} defaultPositionY={200}>
+                                    {({ zoomIn, zoomOut, resetTransform, ...rest }) => (
+                                        <React.Fragment>
+
+
+                                            <TransformComponent>
+                                                <div className="slideImage">
+                                                    <img src={Productdetail.img} alt="" />
+                                                    <div className="zoomButton">
+                                                        <button className="btn btn-primary " onClick={() => zoomIn()}>Zoom in +</button><br />
+                                                        <button className="btn btn-primary" onClick={() => zoomOut()}>zoom out -</button><br />
+                                                        <button className="btn btn-primary" onClick={() => resetTransform()}> reset </button>
+
+                                                    </div>
+                                                </div>
+                                                <div>examampletest</div>
+                                            </TransformComponent>
+                                        </React.Fragment>
+                                    )}
+                                </TransformWrapper>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={diamondimg2} alt="" />
+                                <TransformWrapper defaultScale={1} defaultPositionX={100} defaultPositionY={200}>
+                                    <TransformComponent>
+                                        <img src={diamondimg2} alt="" />
+                                    </TransformComponent>
+                                </TransformWrapper>
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                <TransformWrapper defaultScale={1} defaultPositionX={100} defaultPositionY={200}>
+                                    <TransformComponent>
+                                        <img src={diamondimg3} alt="" />
+                                    </TransformComponent>
+                                </TransformWrapper>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={diamondimg3} alt="" />
+                                <TransformWrapper defaultScale={1} defaultPositionX={100} defaultPositionY={200}>
+                                    <TransformComponent>
+                                        <img src={diamondimg3} alt="" />
+                                    </TransformComponent>
+                                </TransformWrapper>
                             </SwiperSlide>
                         </Swiper>
                         <Swiper
@@ -72,13 +107,16 @@ export default function Productdetail() {
                             className="mySwiper"
                         >
                             <SwiperSlide>
-                                <img src={diamondimg4} alt="" />
+                                <img src={Productdetail.img} alt="" style={{ border: "1px solid black" }} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={diamondimg2} alt="" />
+                                <img src={diamondimg2} alt="" style={{ border: "1px solid black" }} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={diamondimg3} alt="" />
+                                <img src={diamondimg3} alt="" style={{ border: "1px solid black" }} />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={diamondimg3} alt="" style={{ border: "1px solid black" }} />
                             </SwiperSlide>
                         </Swiper>
                         {/* <TransformWrapper defaultScale={1} defaultPositionX={100} defaultPositionY={200}>
@@ -97,7 +135,10 @@ export default function Productdetail() {
                         <hr />
                         <p>{Productdetail.desp}</p>
                         <hr />
-                        <button className="btn btn-danger">BUY NOW</button>
+                        <div className="buyBtn">
+                            <button className="btn btn-danger" >BUY NOW</button>
+                            <button className="btn btn-danger">ADD TO CART</button>
+                        </div>
                     </div>
                 </div>
                 {/* <div className="row pt-3">

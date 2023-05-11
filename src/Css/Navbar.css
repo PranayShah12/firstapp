@@ -83,3 +83,9 @@ span {
 .form-control {
     padding-right: 80px;
 }
+
+.cart {
+    font-size: 30px;
+    padding-left: 170px;
+    /* padding-bottom: 10px; */
+}

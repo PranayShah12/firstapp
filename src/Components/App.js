@@ -24,7 +24,9 @@ function App() {
 
 
     return (<>
-        <WrapperContext.Provider value={{ searchFormValue, setSearchFormValue, list, setList, filterList, setFilterList }}>
+        <WrapperContext.Provider value={{
+            searchFormValue, setSearchFormValue, list, setList, filterList, setFilterList
+        }}>
             <Navbar />
             <Routes>
                 <Route path="/" Component={Home}></Route>
